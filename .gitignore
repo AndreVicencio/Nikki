@@ -1,0 +1,179 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.*.local
+.supabase_env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+.env.development.local
+.env.production.local
+.env.test.local
+.env*.local
+*.log
+*.log.[0-9]*
+*.log.[0-9][0-9]
+pids/
+*.pid
+*.seed
+*.pid.lock
+*.gz
+
+# Frontend
+dist/
+build/
+out/
+.vscode/
+.DS_Store
+public/
+coverage/
+.npm/
+
+# Supabase
+supabase/.temp
+supabase/.cache
+supabase/.supabase
+supabase/.docker
+supabase/.npm
+supabase/.local
+supabase/.env
+supabase/.db
+supabase/.data
+supabase/.lock
+
+# Edge Functions
+supabase/functions/**/node_modules
+supabase/functions/**/dist
+supabase/functions/**/.supabase
+supabase/functions/**/.npm
+supabase/functions/**/.env
+supabase/functions/**/.cache
+
+# macOS
+*.DS_Store
+
+# JetBrains
+.idea/
+*.iml
+
+# Linux/macOS system files
+*.swp
+*~
+.cache
+Thumbs.db
+
+# npm and yarn directories
+node_modules/
+.pnp/
+.pnp.js
+.vscode/
+.history/
+
+# Local IDE config files
+*.vscode/
+.idea/
+.project
+.classpath
+
+# TypeScript
+*.tsbuildinfo
+.cache/
+*.tscache
+
+# Miscellaneous
+*.log
+logs/
+*.gz
+
+# IDEs and editors
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Ignore build outputs
+dist/
+build/
+out/
+*.log
+
+# Test coverage
+coverage/
+
+# Ignore documentation files
+*.md
+docs/
+
+# Ignore Docker files
+docker-compose.override.yml
+docker-compose.debug.yml
+docker-compose.debug.override.yml
+Dockerfile.*
+
+# Ignore Storybook build outputs
+.storybook-out/
+storybook-static/
+
+# Ignore TypeScript cache files
+*.tsbuildinfo
+
+# Ignore dotenv environment variable files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.example
+
+# Ignore Sentry sourcemap uploads
+.sentryclirc
+
+# Ignore Parcel cache
+.cache/
+
+# Ignore certain IDE-specific files
+.DS_Store
+.idea/
+*.iml
+
+# Ignore ESLint and Prettier cache
+.eslintcache
+.prettierignore
+.prettiercache
+
+# Ignore package locks
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Ignore Next.js build outputs
+.next/
+out/
+*.next/
+.next/cache/
+out/cache/
+
+# Ignore test environments
+jest/
+
+# Ignore IntelliJ project files
+.idea/
+*.iml
+
+# Ignore serverless function build outputs
+/.vercel/
+/.serverless/
+/.expo/

@@ -11,8 +11,6 @@ const supabaseUrl = Deno.env.get("SB_URL") || "";
 const supabaseKey = Deno.env.get("SB_SERVICE_ROLE_KEY") || "";
 const supabase = createClient(supabaseUrl, supabaseKey);
 
-console.log("Hello from Functions!");
-
 Deno.serve(async (req) => {
   const { data, error } = await supabase.from("notion_blocks").select("*");
 

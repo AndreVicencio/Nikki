@@ -34,8 +34,6 @@ pids/
 dist/
 build/
 out/
-.vscode/
-.DS_Store
 public/
 coverage/
 .npm/
@@ -81,7 +79,6 @@ node_modules/
 .history/
 
 # Local IDE config files
-*.vscode/
 .idea/
 .project
 .classpath

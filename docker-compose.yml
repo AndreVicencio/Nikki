@@ -1,0 +1,9 @@
+version: '1.0'
+
+services:
+  oden_container:
+    image: oden_alpha
+    container_name: oden_container
+    tty: true
+    volumes:
+      - ./docker_files/.zshrc:/home/oden/.zshrc

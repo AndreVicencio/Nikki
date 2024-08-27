@@ -1,0 +1,10 @@
+version: '1.0'
+
+services:
+  oden_container:
+    image: nikki
+    container_name: nikki
+    tty: true
+    volumes:
+      - ./docker_files/.zshrc:/home/nikki/.zshrc
+      - ./supabase/:/app/supabase/
